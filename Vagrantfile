@@ -12,11 +12,7 @@ VAGRANTFILE_API_VERSION = "2"
 
 $script = <<SCRIPT
 export PYTHONUNBUFFERED=1
-# export JAVA_HOME=/usr/lib/jvm/java-8-oracle
 sudo apt-get update
-# sudo apt-get install -y build-essential
-# sudo apt-get install -y oracle-java8-installer
-# sudo apt-get install -y oracle-java8-set-default
 
 SCRIPT
 
